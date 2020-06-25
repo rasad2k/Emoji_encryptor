@@ -56,17 +56,6 @@ int main(int argc, char const *argv[])
 		}
 	}
 
-	// for (int i = 0; i < 27; i++)
-	// {
-	// 	printf("[%2d]:", i);
-	// 	for (int j = 0; j < 27; j++)
-	// 	{
-	// 		printf(" %3s ", table[i][j]);
-	// 	}
-	// 	printf("\n");
-	// }
-
-
 	char key[50], text[1000];
 	printf("Please enter the key and the text: ");
 	scanf("%s %[^\n]s", key, text);
